@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test DPG</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="container__header">
+            <h1 class="header-text">Hello</h1>
+        </header>
+        <section class="forms">
+
+            <form class="forms__block">
+                <h6 class="forms__block_header">For business enquiries please<br> use the form below</h6>
+                <p class="forms__block_text">*Required</p>
+                <p class="forms__block_contact first-contact"><label for="name">Name*</label></p>
+                <input class="forms__block-input" id="name" name="name" required="" tabindex="1" type="text">
+
+                <p class="forms__block_contact"><label for="company">Company*</label></p>
+                <input class="forms__block-input" id="company" name="company" required="" tabindex="2" type="text">
+
+                <p class="forms__block_contact"><label for="email">Email*</label></p>
+                <input class="forms__block-input" id="email" name="email" required="" tabindex="3" type="email">
+
+                <p class="forms__block_contact"><label for="tel">Phone</label></p>
+                <input class="forms__block-input" id="tel" name="tel" tabindex="4" type="tel">
+
+
+                <p class="forms__block_contact"><label for="Subject">Subject</label></p>
+                <input class="forms__block-input" id="subject" name="subject" tabindex="5" type="text">
+
+                <p class="forms__block_contact"><label for="comment">Message*</label></p>
+                <textarea class="forms__block-input forms__block-textarea" name="comment" id="comment"
+                    tabindex="6"></textarea>
+
+
+                <p class="forms__block_contact"><label class="forms__block_lbl" for="checkbox"><input
+                            class="forms__block-checkbox" type="checkbox" checked id="checkbox" name="checkbox"
+                            tabindex=7">I
+                        accept <a class="forms__block-checkbox_link" href="#">Terms and
+                            Privacy
+                            Policy</a></label></p>
+
+
+
+                <input class="forms__block-btn" name="submit" id="submit" tabindex="8" value="Send" type="submit">
+
+            </form>
+        </section>
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

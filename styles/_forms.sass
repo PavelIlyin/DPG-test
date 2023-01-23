@@ -8,7 +8,7 @@ body
 .container
     padding: 90px 0
     justify-content: center
-    color: #FFFFFF
+    color: $colorText
     height: 100%
     padding-left: calc( 50% - 195px )
     padding-right: calc( 50% - 195px )
@@ -26,7 +26,6 @@ body
     text-shadow: 0px 4px 19px rgba(0, 0, 0, 0.97)
 
 .forms
-
     display: flex
     justify-content: center
     background-color: #171929
@@ -50,12 +49,12 @@ body
             font-weight: 300
             font-size: 15px
             line-height: 120%
-            color: #797EA3
+            color: $mainColor
 
         &_contact
             font-weight: 300
             font-size: 15px
-            color: #797EA3
+            color: $mainColor
             padding: 38px 0 10px 0
 
         &_lbl
@@ -66,7 +65,7 @@ body
         &-input
             background-color: #171929
             outline: none
-            color: #FFFFFF
+            color: $colorText
             width: 100%
             font-family: inherit
             font-size: 18px
@@ -75,7 +74,7 @@ body
             border-bottom: 1px solid #3F4363
 
             &:focus
-                border-bottom: 1px solid #FFFFFF
+                border-bottom: 1px solid $colorText
 
         &-textarea
             resize: none
@@ -96,7 +95,7 @@ body
             background: #2C2F47
             border-radius: 28px
             outline: none
-            color: #FFFFFF
+            color: $colorText
             background-clip: padding-box
             border: none
 
@@ -109,4 +108,4 @@ body
     padding-top: 0
 
 .active
-    color: #FFFFFF
+    color: $colorText

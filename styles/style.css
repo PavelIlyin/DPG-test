@@ -76,7 +76,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 100%;
   padding-left: calc( 50% - 195px);
   padding-right: calc( 50% - 195px);
@@ -162,7 +162,7 @@ body {
 .forms__block-input {
   background-color: #171929;
   outline: none;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 100%;
   font-family: inherit;
   font-size: 18px;
@@ -172,7 +172,7 @@ body {
 }
 
 .forms__block-input:focus {
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #ffffff;
 }
 
 .forms__block-textarea {
@@ -197,7 +197,7 @@ body {
   background: #2C2F47;
   border-radius: 28px;
   outline: none;
-  color: #FFFFFF;
+  color: #ffffff;
   background-clip: padding-box;
   border: none;
 }
@@ -217,6 +217,6 @@ body {
 }
 
 .active {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
